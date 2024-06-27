@@ -1,0 +1,122 @@
+.aboutDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.xzxbytb51Icon {
+  height: 688px;
+  width: 1455px;
+  position: absolute;
+  margin: 0 !important;
+  right: -781px;
+  bottom: -438px;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+  z-index: 2;
+}
+.weAreSettling {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.xzxbytb51Parent {
+  width: 551px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 551px;
+  max-width: 100%;
+}
+.whoWeAre {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  z-index: 3;
+}
+.aboutUsTitle {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.calendarDayLabels {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.aboutDividerParent,
+.calendarDayLabelsWrapper {
+  width: 1313px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutDividerParent {
+  width: 1416px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-366xl) 0;
+  gap: var(--gap-50xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
+@media screen and (max-width: 1225px) {
+  .xzxbytb51Parent {
+    flex: 1;
+  }
+  .calendarDayLabels {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .xzxbytb51Parent {
+    min-width: 100%;
+  }
+  .whoWeAre {
+    font-size: var(--font-size-10xl);
+    line-height: 43px;
+  }
+  .aboutDividerParent {
+    gap: var(--gap-15xl);
+    padding-bottom: var(--padding-231xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weAreSettling {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .whoWeAre {
+    font-size: var(--font-size-3xl);
+    line-height: 32px;
+  }
+  .aboutDividerParent {
+    gap: var(--gap-mid);
+  }
+}

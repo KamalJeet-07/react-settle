@@ -1,0 +1,273 @@
+.topUkUniversities,
+.topUkUniversitiesWrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.topUkUniversities {
+  width: 812px;
+  position: relative;
+  text-decoration: underline;
+  line-height: 150%;
+  align-items: center;
+  flex-shrink: 0;
+}
+.topUkUniversitiesWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.e11Icon,
+.e21Icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.e11Icon {
+  min-height: 163px;
+}
+.e21Icon {
+  align-self: stretch;
+  flex: 1;
+}
+.e21Wrapper {
+  height: 163px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.e71Icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 163px;
+}
+.e11Parent {
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  grid-template-columns: repeat(3, minmax(298px, 1fr));
+}
+.e11Parent,
+.e91Icon,
+.uKUniversities {
+  align-self: stretch;
+  max-width: 100%;
+}
+.uKUniversities {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+}
+.e91Icon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.universityPlaceholder {
+  height: 146px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.e41Icon,
+.e81Icon {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.e81Icon {
+  width: 369px;
+}
+.e41Icon {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+}
+.calendarDayLabels {
+  height: 166px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logoPair,
+.universityPlaceholderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.universityPlaceholderParent {
+  justify-content: center;
+  gap: var(--gap-44xl);
+}
+.logoPair {
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.uk001Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logoImage {
+  height: 145px;
+  width: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.e51Icon,
+.e61Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 255px;
+  min-height: 164px;
+}
+.calendarDayLabels1,
+.logoImageParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.logoImageParent {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+}
+.calendarDayLabels1 {
+  width: 1250px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.universitiesContent {
+  width: 1273px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-57xl);
+  max-width: 100%;
+}
+.universitiesContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-49xl) var(--padding-92xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
+@media screen and (max-width: 1225px) {
+  .universityPlaceholderParent {
+    flex-wrap: wrap;
+  }
+  .universitiesContentWrapper {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .e11Parent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(298px, 516px));
+  }
+  .universitiesContentWrapper {
+    padding-bottom: var(--padding-53xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .topUkUniversities {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .e11Icon,
+  .e71Icon {
+    width: 100%;
+  }
+  .e11Parent {
+    gap: var(--gap-4xl);
+    grid-template-columns: minmax(298px, 1fr);
+  }
+  .uKUniversities {
+    gap: var(--gap-xl);
+  }
+  .universityPlaceholderParent {
+    gap: var(--gap-12xl);
+  }
+  .logoImageParent {
+    gap: var(--gap-7xl);
+  }
+  .universitiesContent {
+    gap: var(--gap-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .topUkUniversities {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .universityPlaceholderParent {
+    gap: var(--gap-base);
+  }
+  .universitiesContent {
+    gap: var(--gap-lgi);
+  }
+  .universitiesContentWrapper {
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}

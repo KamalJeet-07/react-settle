@@ -1,0 +1,97 @@
+.interviewPreparaton,
+.weEquipsIndividuals {
+  position: relative;
+  font-weight: 700;
+  z-index: 2;
+}
+.interviewPreparaton {
+  align-self: stretch;
+  line-height: 100%;
+}
+.weEquipsIndividuals {
+  flex: 1;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.weEquipsIndividualsWithSkiWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.assessmentService {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-22xl);
+}
+.assessmentService,
+.requestStatusNames,
+.serviceCategories,
+.serviceCategoriesWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.requestStatusNames {
+  width: 450px;
+  flex-direction: column;
+  padding: var(--padding-258xl) var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.serviceCategories,
+.serviceCategoriesWrapper {
+  flex-direction: row;
+}
+.serviceCategories {
+  flex: 1;
+  gap: var(--gap-11xs);
+}
+.serviceCategoriesWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-124xl) var(--padding-2xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}
+@media screen and (max-width: 1225px) {
+  .serviceCategories {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .interviewPreparaton {
+    font-size: var(--font-size-7xl);
+    line-height: 26px;
+  }
+  .requestStatusNames {
+    padding-top: var(--padding-161xl);
+    box-sizing: border-box;
+  }
+  .serviceCategoriesWrapper {
+    padding-bottom: var(--padding-74xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .interviewPreparaton {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .weEquipsIndividuals {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .assessmentService {
+    gap: var(--gap-xl);
+  }
+}
